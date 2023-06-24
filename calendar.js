@@ -20,7 +20,7 @@ function geUpcomingEvent(){
 // console.log(geUpcomingEvent())
 
 //  weakmap
-const storedEvent =events[0]
+const storedEvent =events[3]
 const Eventorganizer = new WeakMap();
 Eventorganizer.set(storedEvent, "admin")
 
